@@ -272,17 +272,8 @@ sap.ui.define(["jquery.sap.global", "sap/ui/core/Item",
 		
 			// Indent - Musa Arda
 			var indentValue = this.getLevel() * 0.75;
-			rm.write("style='padding-left:" + indentValue + "rem");
+			rm.write("style='padding-left:" + indentValue + "rem'");
 			
-			//Final Item Change BG Color - Musa Arda
-			var items = this.getItems();
-			if (items.length == 0) {
-				rm.write("; background-color: #394958;'");
-			}
-			else { // close the style property
-				rm.write("'");
-			}
-		
 			rm.write(">");
 		
 			this._renderIcon(rm);
