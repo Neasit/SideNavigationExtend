@@ -4,3 +4,7 @@
 .fullHeight {
 	height: 100%;
 }
+
+.customNavigationGroupSelected>.sapTntNavLIGroup {
+  background-color: #496b8a;
+}

@@ -9,7 +9,7 @@ sap.ui.jsview("sap.demo.view.ExtendApp", {
 		/* SideNavigation */
 		var oSideNavigation = new sap.tnt.SideNavigation("sideNavigation");
 		/* NavigationList */
-		var oNavigationList = new sap.tnt.NavigationList("oNavigationList");
+		var oNavigationList = new sap.demo.controls.XNavigationList("oNavigationList");
 
 		/* NavigationListItem Level 0 */
 		for (var i = 0; i <= 4; i++) {
@@ -34,7 +34,7 @@ sap.ui.jsview("sap.demo.view.ExtendApp", {
 						icon: "sap-icon://paper-plane",
 						expanded: false
 					});
-					
+
 					/* NavigationListItem Level 3 */
 					for (var l = 0; l <= 2; l++) {
 						var oNavigationListItemSub3 = new sap.demo.controls.XNavigationListItem("", {
@@ -44,7 +44,7 @@ sap.ui.jsview("sap.demo.view.ExtendApp", {
 						});
 						oNavigationListItemSub2.addItem(oNavigationListItemSub3);
 					}
-					
+
 					oNavigationListItemSub.addItem(oNavigationListItemSub2);
 				}
 
