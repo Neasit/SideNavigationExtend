@@ -1,12 +1,12 @@
 /*
-    Base grunt script on ALMV for build and deploy SAP UI5 Application
+    Base grunt script for build and deploy SAP UI5 Application
     version: 3.0
     1.1 - added ESLint, Server.js
     1.2 - added babel task and manage versions
     2.0 - move tools to npm package (grunt-tdevopsui5)
     2.1 - added task for MTA - GNU Make is required
     3.0 - go to UI5 Tooling
-    author: T-Systems RUS, Andrey Danilin
+    author: Neasit
 */
 const dotenv = require('dotenv');
 
